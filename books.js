@@ -1,0 +1,398 @@
+window.BIBLE_BOOKS = [
+  {
+    "name": "Gênesis",
+    "chapters": 50,
+    "category": "Pentateuco",
+    "testament": "AT"
+  },
+  {
+    "name": "Êxodo",
+    "chapters": 40,
+    "category": "Pentateuco",
+    "testament": "AT"
+  },
+  {
+    "name": "Levítico",
+    "chapters": 27,
+    "category": "Pentateuco",
+    "testament": "AT"
+  },
+  {
+    "name": "Números",
+    "chapters": 36,
+    "category": "Pentateuco",
+    "testament": "AT"
+  },
+  {
+    "name": "Deuteronômio",
+    "chapters": 34,
+    "category": "Pentateuco",
+    "testament": "AT"
+  },
+  {
+    "name": "Josué",
+    "chapters": 24,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "Juízes",
+    "chapters": 21,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "Rute",
+    "chapters": 4,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "1 Samuel",
+    "chapters": 31,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "2 Samuel",
+    "chapters": 24,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "1 Reis",
+    "chapters": 22,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "2 Reis",
+    "chapters": 25,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "1 Crônicas",
+    "chapters": 29,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "2 Crônicas",
+    "chapters": 36,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "Esdras",
+    "chapters": 10,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "Neemias",
+    "chapters": 13,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "Ester",
+    "chapters": 10,
+    "category": "Históricos",
+    "testament": "AT"
+  },
+  {
+    "name": "Jó",
+    "chapters": 42,
+    "category": "Poéticos",
+    "testament": "AT"
+  },
+  {
+    "name": "Salmos",
+    "chapters": 150,
+    "category": "Poéticos",
+    "testament": "AT"
+  },
+  {
+    "name": "Provérbios",
+    "chapters": 31,
+    "category": "Poéticos",
+    "testament": "AT"
+  },
+  {
+    "name": "Eclesiastes",
+    "chapters": 12,
+    "category": "Poéticos",
+    "testament": "AT"
+  },
+  {
+    "name": "Cânticos",
+    "chapters": 8,
+    "category": "Poéticos",
+    "testament": "AT"
+  },
+  {
+    "name": "Isaías",
+    "chapters": 66,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Jeremias",
+    "chapters": 52,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Lamentações",
+    "chapters": 5,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Ezequiel",
+    "chapters": 48,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Daniel",
+    "chapters": 12,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Oseias",
+    "chapters": 14,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Joel",
+    "chapters": 3,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Amós",
+    "chapters": 9,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Obadias",
+    "chapters": 1,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Jonas",
+    "chapters": 4,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Miqueias",
+    "chapters": 7,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Naum",
+    "chapters": 3,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Habacuque",
+    "chapters": 3,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Sofonias",
+    "chapters": 3,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Ageu",
+    "chapters": 2,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Zacarias",
+    "chapters": 14,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Malaquias",
+    "chapters": 4,
+    "category": "Profetas",
+    "testament": "AT"
+  },
+  {
+    "name": "Mateus",
+    "chapters": 28,
+    "category": "Evangelhos",
+    "testament": "NT"
+  },
+  {
+    "name": "Marcos",
+    "chapters": 16,
+    "category": "Evangelhos",
+    "testament": "NT"
+  },
+  {
+    "name": "Lucas",
+    "chapters": 24,
+    "category": "Evangelhos",
+    "testament": "NT"
+  },
+  {
+    "name": "João",
+    "chapters": 21,
+    "category": "Evangelhos",
+    "testament": "NT"
+  },
+  {
+    "name": "Atos",
+    "chapters": 28,
+    "category": "Históricos NT",
+    "testament": "NT"
+  },
+  {
+    "name": "Romanos",
+    "chapters": 16,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "1 Coríntios",
+    "chapters": 16,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "2 Coríntios",
+    "chapters": 13,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Gálatas",
+    "chapters": 6,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Efésios",
+    "chapters": 6,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Filipenses",
+    "chapters": 4,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Colossenses",
+    "chapters": 4,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "1 Tessalonicenses",
+    "chapters": 5,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "2 Tessalonicenses",
+    "chapters": 3,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "1 Timóteo",
+    "chapters": 6,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "2 Timóteo",
+    "chapters": 4,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Tito",
+    "chapters": 3,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Filemom",
+    "chapters": 1,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Hebreus",
+    "chapters": 13,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Tiago",
+    "chapters": 5,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "1 Pedro",
+    "chapters": 5,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "2 Pedro",
+    "chapters": 3,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "1 João",
+    "chapters": 5,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "2 João",
+    "chapters": 1,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "3 João",
+    "chapters": 1,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Judas",
+    "chapters": 1,
+    "category": "Cartas",
+    "testament": "NT"
+  },
+  {
+    "name": "Apocalipse",
+    "chapters": 22,
+    "category": "Apocalipse",
+    "testament": "NT"
+  }
+];
