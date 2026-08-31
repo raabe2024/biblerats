@@ -1,0 +1,18 @@
+{
+  "name": "BibleRats",
+  "short_name": "BibleRats",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f0e7",
+  "theme_color": "#5e6641",
+  "description": "Acompanhe seu progresso de leitura da Bíblia.",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
